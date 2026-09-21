@@ -1,0 +1,16 @@
+# Ignore everything in the root by default
+/*
+
+# But keep tracking the gitignore file itself
+!.gitignore
+
+# Allow wp-content but ignore generated/heavy directories inside it
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+!/wp-content/plugins/
+!/wp-content/languages/
+
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
